@@ -1,0 +1,64 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-06-26 01:14:05 --> Severity: Notice --> Undefined index: service /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 171
+ERROR - 2018-06-26 01:19:45 --> Severity: Notice --> Undefined variable: html /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 248
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: metaTitle /home1/eagle7/public_html/insideloscabos.com/application/views/include/head.php 5
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: metaKeywords /home1/eagle7/public_html/insideloscabos.com/application/views/include/head.php 6
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: metaContent /home1/eagle7/public_html/insideloscabos.com/application/views/include/head.php 7
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 176
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 179
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 182
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 185
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbAct /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 247
+ERROR - 2018-06-26 03:11:07 --> Severity: Warning --> Invalid argument supplied for foreach() /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 247
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbBlogs /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 10
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: search /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 100
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbRecBlogs /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 114
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: tagsArr /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 155
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 105
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 106
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 107
+ERROR - 2018-06-26 03:11:07 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 108
+ERROR - 2018-06-26 03:31:37 --> Severity: Notice --> Undefined variable: actId /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 60
+ERROR - 2018-06-26 05:36:39 --> Severity: Notice --> Undefined index: transportation_type /home1/eagle7/public_html/insideloscabos.com/application/controllers/Welcome.php 35
+ERROR - 2018-06-26 05:36:44 --> Severity: Notice --> Undefined variable: u /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 365
+ERROR - 2018-06-26 19:28:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home1/eagle7/public_html/insideloscabos.com/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2018-06-26 19:28:33 --> Unable to connect to the database
+ERROR - 2018-06-26 19:28:38 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home1/eagle7/public_html/insideloscabos.com/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2018-06-26 19:28:38 --> Unable to connect to the database
+ERROR - 2018-06-26 19:28:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) /home1/eagle7/public_html/insideloscabos.com/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2018-06-26 19:28:40 --> Unable to connect to the database
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: metaTitle /home1/eagle7/public_html/insideloscabos.com/application/views/include/head.php 5
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: metaKeywords /home1/eagle7/public_html/insideloscabos.com/application/views/include/head.php 6
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: metaContent /home1/eagle7/public_html/insideloscabos.com/application/views/include/head.php 7
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 176
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 179
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 182
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 185
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbAct /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 247
+ERROR - 2018-06-26 19:46:40 --> Severity: Warning --> Invalid argument supplied for foreach() /home1/eagle7/public_html/insideloscabos.com/application/views/include/header.php 247
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbBlogs /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 10
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: search /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 100
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbRecBlogs /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 114
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: tagsArr /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog.php 155
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 105
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 106
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 107
+ERROR - 2018-06-26 19:46:40 --> Severity: Notice --> Undefined variable: dbSocial /home1/eagle7/public_html/insideloscabos.com/application/views/include/footer.php 108
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined offset: 0 /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 102
+ERROR - 2018-06-26 20:17:07 --> Severity: Warning --> extract() expects parameter 1 to be array, null given /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 1
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: authorImage /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 14
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: author /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 17
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: createdAt /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 18
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: image /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 32
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: description /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 35
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 53
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 56
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 94
+ERROR - 2018-06-26 20:17:07 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 142
+ERROR - 2018-06-26 21:31:10 --> Severity: Notice --> Undefined variable: html /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 248

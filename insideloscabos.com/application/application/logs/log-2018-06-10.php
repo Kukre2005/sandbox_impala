@@ -1,0 +1,41 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined offset: 0 /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 102
+ERROR - 2018-06-10 02:52:58 --> Severity: Warning --> extract() expects parameter 1 to be array, null given /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 1
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: authorImage /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 14
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: author /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 17
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: createdAt /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 18
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: image /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 32
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: description /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 35
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 53
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 56
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 94
+ERROR - 2018-06-10 02:52:58 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 142
+ERROR - 2018-06-10 07:33:55 --> Severity: Notice --> Undefined variable: paypalMsg /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 22
+ERROR - 2018-06-10 07:33:55 --> Severity: Notice --> Undefined variable: returnText /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 103
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYERID /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 505
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_ITEMAMT /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 533
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTONAME /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 538
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOSTREET /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 539
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOCITY /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 540
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOSTATE /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 541
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOZIP /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 542
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 543
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined variable: paypalMsg /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 22
+ERROR - 2018-06-10 09:39:55 --> Severity: Notice --> Undefined variable: returnText /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 103
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYERID /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 505
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_ITEMAMT /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 533
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTONAME /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 538
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOSTREET /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 539
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOCITY /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 540
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOSTATE /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 541
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOZIP /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 542
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined index: PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE /home1/eagle7/public_html/insideloscabos.com/application/controllers/Transportation.php 543
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined variable: paypalMsg /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 22
+ERROR - 2018-06-10 09:45:14 --> Severity: Notice --> Undefined variable: returnText /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 103
+ERROR - 2018-06-10 15:29:47 --> Severity: Notice --> Undefined variable: html /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 248

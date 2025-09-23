@@ -1,0 +1,42 @@
+<div class="animated fadeIn" ng-controller="LoginController">
+   
+    <!--/.row-->
+
+    <div class="row">
+        <div class="col-md-12" >
+              <div class="card-header" ng-if="miniPass == '1'">
+                    <strong>Welcome To Dashboard</strong>
+                </div>
+            <div class="card" ng-if="miniPass == '0'">
+                <div class="card-header">
+                    <strong>Enter Mini Password</strong>
+                </div>
+                 <form  method="post" name="miniPassForm" class="form-horizontal " ng-submit="submitMiniPass(miniPassForm)" ng-validate="validationOptionsMiniPass">
+                    
+                <div class="card-block">
+                   
+                     
+                        <div class="form-group row" id="formRow">
+                            <label class="col-md-3 form-control-label" for="name">Mini Password</label>
+                            <div class="col-md-9">
+                                <input type="password" id="password" name="miniPassword" ng-model="miniPassModel.miniPassword"  class="form-control" placeholder="Enter mini password">
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-sm btn-primary" name="submitButton"  ng-disabled="miniPassForm.$invalid"><i class="fa fa-dot-circle-o"></i> Submit</button>
+<!--                    <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>-->
+                </div>
+                  </form>
+            </div>
+
+            
+        </div>
+  
+        <!--/.col-->
+    </div>
+    <!--/.row-->
+
+</div>

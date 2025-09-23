@@ -1,0 +1,173 @@
+<div class="sidebar">
+    <nav class="sidebar-nav">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" ui-sref-active="active" ui-sref="app.main"><i class="icon-speedometer"></i> Dashboard </a>
+            </li>
+
+            <li class="divider"></li>
+
+            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.hotels') || $state.includes('app.groups')}" ng-if="miniPass == '1'">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.hotels')}" href="#"><i class="icon-shield"></i> Hotels</a>
+                <ul class="nav-dropdown-items">
+
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.hotels"><i class="icon-shield"></i>Manage Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.groups({type:'private_transport'})"><i class="icon-shield"></i>Manage Groups - Private Transportation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.groups({type:'cabo_shuttle'})"><i class="icon-shield"></i>Manage Groups - Cabo Shuttle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.groups({type:'all_groups'})"><i class="icon-shield"></i>Manage Groups - All</a>
+                    </li>
+                </ul>
+            </li> 
+            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.discounts')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.discounts')}" href="#"><i class="icon-fire"></i> Discounts</a>
+                <ul class="nav-dropdown-items">
+
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.discounts({type:'private_transport'})"><i class="icon-fire"></i>Manage Discounts - Private Transportation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.discounts({type:'cabo_shuttle'})"><i class="icon-fire"></i>Manage Discounts - Cabo Shuttle</a>
+                    </li>
+                </ul>
+            </li> 
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.festivediscounts')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.festivediscounts')}" href="#"><i class="icon-fire"></i> Coupons</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.festivediscounts({type:'festive_discount'})"><i class="icon-fire"></i>Manage Coupons - Festive</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.festivecontent({type:'festive_content'})"><i class="icon-fire"></i>Manage Content - Festive</a>
+                    </li>
+                </ul>
+            </li> 
+
+            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.activities') || $state.includes('app.subActivities')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.activities') || $state.includes('app.subActivities')}" href="#"><i class="icon-crop"></i> Activities</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ng-class="{active: $state.includes('app.activities') || $state.includes('app.subActivities')}" ui-sref="app.activities"><i class="icon-crop"></i>Manage Activities</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.airportInfo') || $state.includes('app.qaHeadings')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.airportInfo') || $state.includes('app.qaHeadings')}" href="#"><i class="icon-compass"></i> About Us</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.airportInfo"><i class="icon-compass"></i>Manage Airport Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.qaHeadings"><i class="icon-compass"></i>Manage Qa</a>
+                    </li>
+
+
+                </ul>
+            </li> -->
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.blogs') || $state.includes('app.addEditBlog')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.blogs') || $state.includes('app.addEditBlog')}" href="#"><i class="icon-globe"></i> Blogs</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.blogs"><i class="icon-globe"></i>Manage Blogs</a>
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.addEditBlog"><i class="icon-globe"></i>Add/Edit Blog</a>
+                    </li>
+
+                </ul>
+            </li>  -->
+
+            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.bookings')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.bookings')}" href="#"><i class="icon-envelope"></i> Bookings</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.bookings({type:'private_transport'})"><i class="icon-envelope"></i>Private Transport List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.bookings({type:'cabo_shuttle'})"><i class="icon-envelope"></i>Cabo Shuttle List</a>
+                    </li>
+
+                </ul>
+            </li>
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.contacts')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.contacts')}" href="#"><i class="icon-tag"></i> Contacts</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.contacts"><i class="icon-tag"></i>Contact List</a>
+                    </li>
+
+                </ul>
+            </li> -->
+                 <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.quotes')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.quotes')}" href="#"><i class="icon-rocket"></i> Quotes</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.quotes"><i class="icon-rocket"></i>Quote List</a>
+                    </li>
+
+                </ul>
+            </li> -->
+            
+            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.sociallinks')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.sociallinks')}" href="#"><i class="icon-share"></i> Social Links</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.sociallinks"><i class="icon-share"></i>Social Link</a>
+                    </li>
+
+                </ul>
+            </li>
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.gallery')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.gallery')}" href="#"><i class=" icon-picture"></i> Gallery</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.gallery"><i class=" icon-picture"></i>Manage Gallery</a>
+                    </li>
+
+                </ul>
+            </li> -->
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.testimonials')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.testimonials')}" href="#"><i class="icon-info"></i> Testimonials</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.testimonials"><i class="icon-info"></i>Manage Testimonials</a>
+                    </li>
+
+                </ul>
+            </li> -->
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.services')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.services')}" href="#"><i class="icon-key"></i> Services</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.services"><i class="icon-key"></i>Manage Services</a>
+                    </li>
+
+                </ul>
+            </li> -->
+<!--            <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.coupons')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.coupons')}" href="#"><i class="icon-bell"></i> Coupons</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.coupons"><i class="icon-bell"></i>Coupons List</a>
+                    </li>
+
+                </ul>
+            </li>-->
+            <!-- <li class="nav-item nav-dropdown" ng-class="{open: $state.includes('app.subscribers')}">
+                <a class="nav-link nav-dropdown-toggle" ng-class="{active: $state.includes('app.subscribers')}" href="#"><i class="icon-user"></i> Subscribers</a>
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref-active="active" ui-sref="app.subscribers"><i class="icon-user"></i>Subscribers List</a>
+                    </li>
+
+                </ul>
+            </li> -->
+
+        </ul>
+    </nav>
+</div>

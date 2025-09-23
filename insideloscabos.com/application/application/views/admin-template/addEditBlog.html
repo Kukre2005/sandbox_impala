@@ -1,0 +1,85 @@
+
+<div class="animated fadeIn" ng-controller="BlogController">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i>Add / Edit Blog
+                </div>
+                <div class="card">
+
+                    <form  method="post" id="formRow2" enctype="multipart/form-data" name="myForm" class="form-horizontal " ng-submit="addEditBlog(myForm)" ng-validate="validationOptions">
+                        <input type="hidden" name="id" ng-model="formData.id" />
+                        <div class="card-block">
+
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="name" name="name" ng-model="formData.name"  class="form-control" placeholder="Enter Name">
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="email">Short Description</label>
+                                <div class="col-md-9">
+                                    <textarea name="shortDesc"  class="form-control"  placeholder="Enter Short Description"  ng-model="formData.shortDesc"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="image">Image</label>
+                                <div class="col-md-9">
+                                    <img ng-if="formData.image" ng-src="{{formData.image}}"/>
+                                    <input type="file" name="image"  class="form-control"  file-model="myFile"   />
+                                </div>
+
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="wesbite">Description</label>
+                                <div class="col-md-9">
+                                    <div>
+                                        <textarea ckeditor="editorOptions" id="description" name="description" ng-model="formData.description" ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                            <div class="form-group row">
+                                                            <label class="col-md-3 form-control-label" for="wesbite">Author</label>
+                                                            <div class="col-md-3">
+                                                                <input type="text" id="author" name="author" ng-model="formData.author"  class="form-control" placeholder="Enter Author">
+                                                            </div>
+                                                            <label class="col-md-3 form-control-label" for="phone">Blog Date</label>
+                                                            <div class="col-md-3">
+                                                                <input type="datetime" id="blogDate"  name="blogDate" ng-model="formData.blogDate"  class="form-control" placeholder="Enter Blog Date">
+                                                            </div>
+                                                        </div>-->
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="email">Tags</label>
+                                <div class="col-md-9">
+                                    <textarea name="tags"  class="form-control"  placeholder="Enter Tags"  ng-model="formData.tags"></textarea>
+                                     <span style="color: red">Note:Please enter tags with comma seperated</span>
+                                </div>
+                               
+
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-sm btn-primary" name="submitButton" ng-model="submitBtn"  ng-disabled="myForm.$invalid"><i class="fa fa-dot-circle-o"></i>{{btnName}}</button>
+                            <button class="btn btn-sm btn-primary" name="submitButton2" ng-show="cancelShow" ng-click="cancelUpdate()" type="button" ><i class="fa fa-dot-circle-o"></i>Cancel</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!--/.col-->
+
+        <!--/.col-->
+    </div>
+    <!--/.row-->
+
+    <!--/.row-->
+</div>
+
+

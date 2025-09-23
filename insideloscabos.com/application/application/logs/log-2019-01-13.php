@@ -1,0 +1,3 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-01-13 13:59:59 --> Query error: Unknown column 'submit' in 'field list' - Invalid query: INSERT INTO `blogscomments` (`blogId`, `fullName`, `email`, `website`, `message`, `submit`, `createdAt`) VALUES ('14', 'VigianAttit', 'tjfdngdcs@felixkanar.ru', 'http://gamecasinosonline.com/', 'online casino games \r\n<a href=http://gamecasinosonline.com/>online casino no deposit bonus</a> \r\nfree casino games online \r\n<a href=\"http://gamecasinosonline.com/\">free online casino</a> \r\nonline casino real money', '', '2019-01-13 13:59:59')

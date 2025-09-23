@@ -1,0 +1,77 @@
+<div class="animated fadeIn" ng-controller="AdminController">
+   
+    <!--/.row-->
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <strong>Manage Social Links</strong>
+                </div>
+                 <form  method="post" name="socialLinkForm" class="form-horizontal " ng-submit="updateSocialLink(socialLinkForm)" ng-validate="validationOptions">
+                    
+                <div class="card-block">
+                   
+                     
+                        <div class="form-group row" id="formRow">
+                            <label class="col-md-3 form-control-label" for="name">Facebook</label>
+                            <div class="col-md-9">
+                                <input type="text" id="facebook" name="facebook" ng-model="socialData.facebook"  class="form-control" placeholder="Enter facebook url">
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label" for="name">Twitter</label>
+                            <div class="col-md-9">
+                                <input type="text" id="twitter" name="twitter" ng-model="socialData.twitter"  class="form-control" placeholder="Enter twitter url">
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label" for="name">Instagram</label>
+                            <div class="col-md-9">
+                                <input type="text" id="linkedin" name="linkedin" ng-model="socialData.linkedin"  class="form-control" placeholder="Enter instgaram url">
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label" for="name">Google Plus</label>
+                            <div class="col-md-9">
+                                <input type="text" id="googleplus" name="googleplus" ng-model="socialData.googleplus"  class="form-control" placeholder="Enter googleplus url">
+                                
+                            </div>
+                        </div>
+                        
+                     
+<!--                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label" for="file-input">File input</label>
+                            <div class="col-md-9">
+                                <input type="file" id="file-input" name="file-input">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 form-control-label" for="file-multiple-input">Multiple File input</label>
+                            <div class="col-md-9">
+                                <input type="file" id="file-multiple-input" name="file-multiple-input" multiple>
+                            </div>
+                        </div>-->
+                  
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-sm btn-primary" name="submitButton"  ng-disabled="profileForm.$invalid"><i class="fa fa-dot-circle-o"></i> Update</button>
+<!--                    <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>-->
+                </div>
+                  </form>
+            </div>
+
+            
+        </div>
+  
+        <!--/.col-->
+    </div>
+    <!--/.row-->
+
+</div>

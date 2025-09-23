@@ -1,0 +1,37 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined offset: 0 /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 102
+ERROR - 2018-09-25 01:40:00 --> Severity: Warning --> extract() expects parameter 1 to be array, null given /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 1
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: authorImage /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 14
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: author /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 17
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: createdAt /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 18
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: image /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 32
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: description /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 35
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 53
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 56
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 94
+ERROR - 2018-09-25 01:40:00 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 142
+ERROR - 2018-09-25 05:40:52 --> Severity: Notice --> Undefined index: transportation_type /home1/eagle7/public_html/insideloscabos.com/application/controllers/Welcome.php 35
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined offset: 0 /home1/eagle7/public_html/insideloscabos.com/application/controllers/Blogs.php 102
+ERROR - 2018-09-25 13:42:59 --> Severity: Warning --> extract() expects parameter 1 to be array, null given /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 1
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: authorImage /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 14
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: author /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 17
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: createdAt /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 18
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: image /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 26
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 32
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: description /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 35
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 53
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 56
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: name /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: slug /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 59
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 94
+ERROR - 2018-09-25 13:42:59 --> Severity: Notice --> Undefined variable: id /home1/eagle7/public_html/insideloscabos.com/application/views/module/blog-detail.php 142
+ERROR - 2018-09-25 18:10:24 --> Severity: Notice --> Undefined variable: paypalMsg /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 22
+ERROR - 2018-09-25 18:10:24 --> Severity: Notice --> Undefined variable: returnText /home1/eagle7/public_html/insideloscabos.com/application/views/module/paypal_result.php 103

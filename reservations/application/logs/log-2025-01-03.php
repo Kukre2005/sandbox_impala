@@ -1,0 +1,62 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-01-03 15:40:33 --> Severity: error --> Exception: count(): Argument #1 ($value) must be of type Countable|array, null given /home1/eagle7/public_html/reservations/application/views/module/home.php 28
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:21 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:43 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:45 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:01:45 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:13 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: File '/home1/eagle7/public_html/reservations/ci-session/PHPSESSID33ef01ce6ca2750fb956c466cf5b104e' doesn't exist and cannot be created.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:34 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: Unable to write data.
+ERROR - 2025-01-03 19:02:53 --> Session: 

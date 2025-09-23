@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Semibold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans.woff2') format('woff2'),
+        url('../fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {font-family: 'Open Sans';}
+p {font-size:16px; line-height:26px; letter-spacing:0.5px;}
+
+/* topbar */
+.topbar {padding: 15px 0; background:#fbfbfb;}
+.topbar ul {padding:0;     margin: 0;}
+.topbar ul li {display:inline-block; vertical-align:middle; margin-right:5px;}
+.contactLinks li a {font-size:15px; color: #000; font-weight: 500;}
+.contactLinks li  i {font-size:16px;}
+.social-icons img {width: 34px; -webkit-transition: all 0.4s ease 0s;     -moz-transition: all 0.4s ease 0s;     transition: all 0.4s ease 0s;}
+.social-icons li:hover img { -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+#logo{text-align: center; margin: 20px 0;}
+#logo img {width:220px;}
+
+/* slider */
+#mainSlider ul {padding-left:0; margin-bottom:0;} 
+.slick-slide img {max-width: 100%;}
+.slick-prev {left:20px; z-index: 999; }
+.slick-next{right: 20px; z-index: 999;}
+.slick-next:before, .slick-prev:before	{    font-family: FontAwesome; font-size:40px; opacity:1;}
+.slick-dots {bottom: 25px;}
+.slick-dots li button {border: 1px solid transparent; border-radius: 50%;}
+.slick-dots li.slick-active button {border-color: #fff;}
+.slick-dots li button:before {font-size: 11px; color:#fff;}
+.slick-dots li.slick-active button:before, .slick-dots li button:before {opacity:1; color:#fff;}
+.middleContent {padding:40px 0; text-align:center;}
+
+label {font-size: 15px; font-weight: 500; letter-spacing: 0.3px;}
+.form-control {background: transparent;
+border-color: rgba(255, 128, 128, 0.7);
+border-radius: 2px;
+height: 36px;
+box-shadow: none;}
+textarea.form-control {min-height: 90px; resize: none; }
+.form-control:focus {outline:0; border-color:rgba(255, 128, 128, 0.7); box-shadow:none;}
+.form-control::-webkit-input-placeholder, select option {color:rgba(0, 0, 0, 0.4);}
+.amount {display: block; font-size: 18px; font-weight: bold; background: #ff8080; color: #fff; width: 40px; height: 36px; text-align: center; border-radius: 3px; line-height: 2; margin-top: 5px;}
+.btn-default {padding: 12px 30px; font-weight: 500; text-transform: uppercase; border:0; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); border-radius: 3px; -webkit-transition:all 0.4s ease 0s; -moz-transition:all 0.4s ease 0s; transition:all 0.4s ease 0s; margin:20px 0; background:#ff8080; color:#fff;}
+.btn-default:hover {color:#fff; background:rgba(255, 128, 128, 0.75)}
+.btn-default:active:hover {outline:0; color:#fff; border:0; background:rgba(255, 128, 128, 0.75);}
+.btn-default:focus , .btn-default.active{outline: 0; border-color: transparent; box-shadow: none; background:rgba(255, 128, 128, 0.75);}
+.btn-default:active {box-shadow: none;}
+.btn-default i {margin-right:7px;}
+.g-recaptcha {min-height:78px; margin-top:20px;}
+/* footer */
+footer {	    padding: 19px 0 15px; text-align: center; background: #f2f2f2; margin: 20px 0 0;}
+footer p {margin-bottom:0;     font-size: 14px;}
+
+/* login-page */
+.loginForm{display: table; width: 85%; margin: 0 auto;}
+.loginForm .form-control {height: 50px;}
+.loginForm .btn-default {padding: 12px 40px;}
+
+/* responsive */
+@media(max-width:767px) {
+	.topbar {text-align:center;}
+	.topbar ul {margin:5px 0;}
+	#logo img {width: 180px;}
+	.social-icons  {float:none !important;}
+	.slick-slide img {height:350px;}
+	.middleContent img {width: 200px;}
+}
+@media(max-width:480px) {
+	.bookingForm .form-group, .loginForm .form-group, .loginForm  {width:100%;}
+	.loginForm .form-control {height: 40px;}
+	.amount {margin:0 0 30px;}
+	.slick-slide img {height:300px;}
+	#logo img {width: 150px;}
+}

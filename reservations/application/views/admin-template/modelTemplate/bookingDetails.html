@@ -1,0 +1,132 @@
+<div class="modal fade" ng-controller="BookingController">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Booking Details - {{bookData.bookingId}}</h4>
+                <button type="button" class="close" ng-click="close()" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <form class="form-horizontal" role="form" >
+
+                <div class="modal-body">
+                    <table class="table table-bordered table-responsive table-striped">
+                        <tr>
+                            <th>Name</th>
+                            <td>{{bookData.name}}</td>
+                            <th>Email </th>
+                            <td>{{bookData.email}}</td>
+                        </tr>
+                        <tr>
+                            <th>Phone</th>
+                            <td>{{bookData.phone}}</td>
+                            <th>Passenger  Range </th>
+                            <td>{{bookData.passengers}}</td>
+                        </tr>
+                        <tr>
+                            <th>Hotel</th>
+                            <td>{{bookData.hotelName}}</td>
+                            <th>Trip Type </th>
+                            <td>{{bookData.service|formatText}}</td>
+                        </tr>
+                         <tr>
+                            <th>Arrival Date</th>
+                            <td>{{bookData.arrivalDate}}</td>
+                            <th>Arrival Flight Detail</th>
+                            <td>{{bookData.arrivalFlight}}</td>
+                        </tr>
+                        <tr>
+                            <th>Departure Date</th>
+                            <td>{{bookData.departureDate}}</td>
+                            <th>Departure Flight Detail</th>
+                            <td>{{bookData.departureFlight}}</td>
+                        </tr>
+                        <tr ng-if="bookData.type=='private_transport'">
+                            <th>Adults</th>
+                            <td>{{bookData.adults}}</td>
+                            <th>Kids</th>
+                            <td>{{bookData.kids}}</td>
+                        </tr>
+                        <tr>
+                            <th>Comments</th>
+                            <td colspan="3">{{bookData.comments}}</td>
+                            
+                        </tr>
+                         
+                         <tr>
+                            <th>Discount(%)</th>
+                            <td>{{bookData.discount}}</td>
+                            <th>Discount Cost</th>
+                            <td>$ {{bookData.discountCost}}</td>
+                        </tr>
+                        <tr>
+                            <th>Amount</th>
+                            <td>${{bookData.calculateAmt}}</td>
+                            <th>Final Amount</th>
+                            <td>${{bookData.finalAmount}}</td>
+                        </tr>
+                        <tr>
+                            <th>Transaction ID</th>
+                            <td colspan="3">{{bookData.transactionId}}</td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <th>Book Status</th>
+                            <td>{{bookData.bookStatus}}</td>
+                            <th>Pay Status</th>
+                            <td>{{bookData.payStatus|capitalize}}</td>
+                        </tr>
+                         
+                        
+                    </table>
+<!--                    <div class="form-group">
+                        <div class="row">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+
+                            <div class="col-sm-4">
+                                {{bookData.name}}
+                            </div>
+                            <label for="email" class="col-sm-2 control-label">Email Address</label>
+                            <div class="col-sm-4">
+                                {{bookData.email}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                         <div class="row">
+                            <label for="name" class="col-sm-2 control-label">Phone</label>
+
+                            <div class="col-sm-4">
+                                {{bookData.phone}}
+                            </div>
+                            <label for="email" class="col-sm-2 control-label">Passenger  Range</label>
+                            <div class="col-sm-4">
+                                {{bookData.passengers}} passengers
+                            </div>
+                        </div>
+                    </div>
+   <div class="form-group">
+                         <div class="row">
+                            <label for="name" class="col-sm-2 control-label">Hotel</label>
+
+                            <div class="col-sm-4">
+                                {{bookData.hotelName}}
+                            </div>
+                            <label for="email" class="col-sm-2 control-label">Trip Type</label>
+                            <div class="col-sm-4">
+                                {{bookData.service | capitalize}}
+                            </div>
+                        </div>
+                    </div>-->
+
+
+
+
+                </div>
+                <!--                <div class="modal-footer">
+                                    <button type="submit"  class="btn btn-primary" ng-disabled="fpForm.$invalid">Submit</button>
+                                    <button type="button" ng-click="cancel()" class="btn">Cancel</button>
+                                </div>-->
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 31
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 8
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 11
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 40
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 67
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 74
+ERROR - 2021-03-17 03:20:34 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 115
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 31
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 8
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 11
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 40
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 67
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 74
+ERROR - 2021-03-17 03:21:10 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 115
+ERROR - 2021-03-17 05:32:54 --> Severity: Notice --> Undefined index: transportation_type /home1/eagle7/public_html/insideloscabos.com/application/controllers/Welcome.php 35
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 31
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 8
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 11
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 40
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 67
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 74
+ERROR - 2021-03-17 05:32:59 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 115
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 31
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 8
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 11
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 40
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 67
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 74
+ERROR - 2021-03-17 05:53:00 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 115
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 31
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 8
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 11
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 40
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 67
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 74
+ERROR - 2021-03-17 11:16:18 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 115
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/controllers/Activities.php 31
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 8
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 11
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 40
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 67
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 74
+ERROR - 2021-03-17 20:47:29 --> Severity: Notice --> Trying to access array offset on value of type null /home1/eagle7/public_html/insideloscabos.com/application/views/module/activity.php 115

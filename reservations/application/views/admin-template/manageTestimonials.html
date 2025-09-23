@@ -1,0 +1,105 @@
+
+<div class="animated fadeIn" ng-controller="TestimonialController">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Manage Testimonial
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Add / Edit Testimonial</strong>
+                    </div>
+                    <form  method="post" id="formRow2"  name="myForm" class="form-horizontal " ng-submit="addEditTestimonial(myForm)" ng-validate="validationOptions">
+                        <input type="hidden" name="id" ng-model="formData.id" />
+                        <div class="card-block">
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="username">User Name</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="username" name="username" ng-model="formData.username"  class="form-control" placeholder="Enter User Name">
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="user_location">Location</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="user_location" name="user_location" ng-model="formData.user_location"  class="form-control" placeholder="Enter Location">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="descprition">Description</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="descprition" name="descprition" ng-model="formData.descprition"  class="form-control" placeholder="Enter Description"></textarea>
+
+                                </div>
+                            </div>
+                             <div class="form-group row">
+                                <label class="col-md-3 form-control-label" for="image">Image</label>
+                                <div class="col-md-9">
+                                    <img ng-if="TestimonialImage" ng-src="{{formData.image}}"/>
+                                    <input type="file" name="image"  class="form-control"  file-model="myFile"   />
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-sm btn-primary" name="submitButton" ng-model="submitBtn"  ng-disabled="myForm.$invalid"><i class="fa fa-dot-circle-o"></i>{{btnName}}</button>
+                            <button class="btn btn-sm btn-primary" name="submitButton2" ng-show="cancelShow" ng-click="cancelUpdate()" type="button" ><i class="fa fa-dot-circle-o"></i>Cancel</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table ng-init="init()"  st-table="dataList" id="formRow" st-safe-src="datas"  class="table table-striped  table-bordered">
+                            <thead>
+                                <tr>
+                                    <th row-select-all="dataList"  selected="selected" ng-click="selectAll(dataList)"></th>
+                                    <th>Name</th>
+                                    <th>Location</th>
+                                    <th>Descprition</th>
+                                    <th>Image</th>
+                                    <!-- <th>Action</th> -->
+                                </tr>
+
+                            </thead>
+                            <tbody ng-show="!isLoading">
+                                <tr ng-if="datas.length == 0"><td colspan="8">No record found.</td></tr>
+                                <tr ng-repeat="row in dataList track by $index" >
+                                    <td row-select="row" ng-click="select(row.id)"></td>
+                                    <td>{{row.username}}</td>
+                                    <td>{{row.user_location}}</td>
+                                    <td>{{row.descprition}}</td>
+                                    <td><image src="https://www.insideloscabos.com/{{row.user_thumbnail_image}}" style="width:100px;height:100px;"/></td>
+                                    <!-- <td><a href="javascript:void(0)" ng-click="editTestimonial(row)">Edit</a></td> -->
+                                </tr>
+                            </tbody>
+                            <!--                    <tbody ng-show="isLoading">
+                                                    <tr>
+                                                        <td colspan="8" class="text-center">Loading ... </td>
+                                                    </tr>
+                                                </tbody>-->
+                            <tfoot>
+                                <tr>
+                                    <td class="text-center" colspan="8">
+                                        <div class="row">
+                                            <div class="col-lg-6" align="left"><button type="button" v="{{selected}}" ng-disabled="!(selected.length > 0)" ng-click="deleteTestimonial()">Delete</button></div>                                
+                                            <div class="col-lg-6" align="right" st-pagination="" st-items-by-page="itemsPerPage"  st-displayed-pages="4"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.col-->
+
+        <!--/.col-->
+    </div>
+    <!--/.row-->
+
+    <!--/.row-->
+</div>
