@@ -224,7 +224,7 @@ if (!empty($_POST)) {
 
         <div class="footer-title w3-display-bottomright" style="padding: 0;">
           <a href="https://www.facebook.com/ImpalaGroundServices" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/impala_cabo" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://x.com/impala_cabo" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
           <a href="https://www.instagram.com/impalacabo/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
 
 
@@ -540,7 +540,7 @@ if ($formSubmission === true) {
       <div style="padding: 1em 0px;">
         <div class="footer-title">Follow us
           <a href="https://www.facebook.com/ImpalaGroundServices" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/impala_cabo" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://x.com/impala_cabo" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
           <a href="https://www.instagram.com/impalacabo/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
         </div>
       </div>

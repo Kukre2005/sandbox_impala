@@ -180,7 +180,7 @@ switch (ENVIRONMENT)
 
 		ini_set('display_errors', 0);
 
-		if (version_compare(PHP_VERSION, '5.3', '>='))
+		if (version_compare(PHP_VERSION, '7.4', '>='))
 
 		{
 
